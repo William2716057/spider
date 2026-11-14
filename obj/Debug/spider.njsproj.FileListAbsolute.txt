@@ -1,0 +1,3 @@
+C:\Users\Wills\source\repos\spider\spider\obj\Debug\spider.njsproj.AssemblyReference.cache
+C:\Users\Wills\source\repos\spider\spider\obj\Debug\spider.njsproj.CoreCompileInputs.cache
+C:\Users\Wills\source\repos\spider\spider\bin\Microsoft.NodejsTools.WebRole.dll

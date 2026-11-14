@@ -1,0 +1,37 @@
+:root {
+    --bg: #0b0d12;
+    --fg: #c9d1e0;
+    --pill: rgba(20,24,34,.75);
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top,0px);
+    padding-bottom: env(safe-area-inset-bottom,0px);
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: system-ui,-apple-system,"Segoe UI",sans-serif;
+    overflow: hidden;
+}
+
+canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+    touch-action: none;
+}
+
+#hint {
+    position: fixed;
+    left: 50%;
+    bottom: calc(16px + env(safe-area-inset-bottom,0px));
+    transform: translateX(-50%);
+    background: var(--pill);
+    padding: 8px 16px;
+    border-radius: 999px;
+    font-size: 13px;
+    pointer-events: none;
+    white-space: nowrap;
+}
